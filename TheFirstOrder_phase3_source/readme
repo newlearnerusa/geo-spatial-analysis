@@ -1,0 +1,26 @@
+This code has been written as per the input file provided as 'yellow_tripdata_2015-01.csv'. Now, this file contains a header for the columns that has been filtered out in the code. Our assumption is that when we run the code the file that has been given as input will contain the header.
+
+A. Obtaining the JAR
+
+1. Directly using the Executable
+You can use the TheFirstOrder_phase3.jar file included in the submission to run the code.
+
+2. Executing from source.
+a)The submission contains the source folder that can be imported as a Maven Project in Eclipse. The source folder also contains the POM file which will download and install the dependencies.
+b) Build the executable Jar file by using the following commands in your terminal- 
+sudo mvn clean install
+sudo mvn package -DskipTests
+
+The executable will be found inside the targets folder of your project.
+
+B. Submitting the Application to spark.
+
+Once the jar file has been obtained the following steps need to be followed before submitting the application to spark.
+
+1. Start the Hadoop File System and load the input dataset.
+2. Start spark in cluster mode.
+3. Use this command to submit.
+
+./bin/spark-submit --master local[*]  --class dds.phase3.App /location/of/jar/TheFirstOrder_phase3.jar hdfs://location/input hdfs://location/output
+
+
