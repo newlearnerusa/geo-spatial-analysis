@@ -4,8 +4,9 @@ This project was a part of the coursework completed for Distributed Database Sys
 
 The source code uploaded is from the third phase that dealt with performing HotSpot Analysis on our Distributed System. This problem was adapted from the [ACM Sigspatial Cup 2016](http://sigspatial2016.sigspatial.org/giscup2016/problem). However, our input included only the data from January. 
 
-A detailed report is also uploaded. For instructions to run and test the code please follow the installation_run_instructions file
-##Algorithm
+A detailed report is also uploaded. For instructions to run and test the code please follow the installation_run_instructions file.
+
+## Algorithm
 The following flowchart describes the algorithm used. 
 <p align="center">
   <img src="https://github.com/vrajasu/geo-spatial-analysis/blob/master/Images/MapReduceAlgorithm.png" width="250"/>
